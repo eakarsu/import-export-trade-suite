@@ -1,9 +1,111 @@
 # Import Export Trade Suite Source Data Tables
 
-Mapped source projects: 0
+Mapped source projects: 5
 
-Detected source tables: 0
+Detected source tables: 103
 
 | Source Project | Table | Framework | Columns | Source File |
 | --- | --- | --- | ---: | --- |
-
+| AIDataLabelingPlatform | ai_results | SQL | 9 | backend/routes/aiFeatures.js |
+| AIDataLabelingPlatform | annotation_rules | SQL | 8 | backend/routes/customViews.js |
+| AIDataLabelingPlatform | gap_features | SQL | 7 | backend/routes/gap_missing_auto_label_suggest_labels_detect_disagreement_identi.js |
+| AIDataLabelingPlatform | gap_features | SQL | 7 | backend/routes/gap_no_calendar_integration.js |
+| AIDataLabelingPlatform | gap_features | SQL | 7 | backend/routes/gap_no_dataset_management_or_versioning_surface.js |
+| AIDataLabelingPlatform | gap_features | SQL | 7 | backend/routes/gap_no_integration_with_ml_training_pipelines.js |
+| AIDataLabelingPlatform | gap_features | SQL | 7 | backend/routes/gap_no_label_schema_definition_and_validation_engine.js |
+| AIDataLabelingPlatform | gap_features | SQL | 7 | backend/routes/gap_no_payment_billing_module.js |
+| AIDataLabelingPlatform | gap_features | SQL | 7 | backend/routes/gap_no_user_labeler_management_and_quality_control_workflows.js |
+| AIDEIAnalyticsReporting | accessibility | SQL | 15 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | ai_analyses | SQL | 8 | backend/routes/aiAnalyses.js |
+| AIDEIAnalyticsReporting | alert_history | SQL | 5 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | alerts | SQL | 13 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | audit_log | SQL | 8 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | benchmarking | SQL | 14 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | compliance_reports | SQL | 14 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | diversity_metrics | SQL | 11 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | employee_surveys | SQL | 14 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | erg_management | SQL | 15 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | gap_features | SQL | 7 | backend/routes/gap_alerts_lacks_ai_prioritization_endpoint.js |
+| AIDEIAnalyticsReporting | gap_features | SQL | 7 | backend/routes/gap_limited_hris_integration_no_workday_successfactors_bamboohr.js |
+| AIDEIAnalyticsReporting | gap_features | SQL | 7 | backend/routes/gap_limited_real_time_alerting_beyond_alerts_js_storage.js |
+| AIDEIAnalyticsReporting | gap_features | SQL | 7 | backend/routes/gap_no_action_plan_automation_or_tracking_workflow.js |
+| AIDEIAnalyticsReporting | gap_features | SQL | 7 | backend/routes/gap_no_payment_billing_module.js |
+| AIDEIAnalyticsReporting | gap_features | SQL | 7 | backend/routes/gap_no_webhooks.js |
+| AIDEIAnalyticsReporting | gap_features | SQL | 7 | backend/routes/gap_none_significant_excellent_ai_to_route_alignment_16_ai_endpo.js |
+| AIDEIAnalyticsReporting | gap_features | SQL | 7 | backend/routes/gap_usermanagement_lacks_ai_access_pattern_anomaly_detection.js |
+| AIDEIAnalyticsReporting | hiring_bias | SQL | 15 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | incident_reports | SQL | 16 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | leadership_pipeline | SQL | 15 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | pay_equity | SQL | 14 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | promotion_bias | SQL | 15 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | reporting_rules | SQL | 11 | backend/routes/customViews.js |
+| AIDEIAnalyticsReporting | retention_analysis | SQL | 15 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | saved_reports | SQL | 8 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | supplier_diversity | SQL | 15 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | training_programs | SQL | 15 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | users | SQL | 6 | backend/db/schema.js |
+| AIDEIAnalyticsReporting | workforce_demographics | SQL | 15 | backend/db/schema.js |
+| AIExportControlSanctionsScreener | audit_logs | SQL | 8 | server/schema.sql |
+| AIExportControlSanctionsScreener | bank_tx_events | SQL | 11 | server/routes/extensions.js |
+| AIExportControlSanctionsScreener | bank_tx_feeds | SQL | 7 | server/routes/extensions.js |
+| AIExportControlSanctionsScreener | compliance_documents | SQL | 11 | server/schema.sql |
+| AIExportControlSanctionsScreener | compliance_officer_sessions | SQL | 5 | server/routes/extensions.js |
+| AIExportControlSanctionsScreener | controlled_items | SQL | 13 | server/schema.sql |
+| AIExportControlSanctionsScreener | denied_parties | SQL | 13 | server/schema.sql |
+| AIExportControlSanctionsScreener | export_licenses | SQL | 15 | server/schema.sql |
+| AIExportControlSanctionsScreener | gap_features | SQL | 6 | server/routes/batch03Gaps.js |
+| AIExportControlSanctionsScreener | policy_documents | SQL | 5 | server/routes/extensions.js |
+| AIExportControlSanctionsScreener | policy_versions | SQL | 6 | server/routes/extensions.js |
+| AIExportControlSanctionsScreener | restricted_countries | SQL | 12 | server/schema.sql |
+| AIExportControlSanctionsScreener | restricted_end_uses | SQL | 11 | server/schema.sql |
+| AIExportControlSanctionsScreener | rt_screening_jobs | SQL | 9 | server/routes/extensions.js |
+| AIExportControlSanctionsScreener | sanctioned_entities | SQL | 12 | server/schema.sql |
+| AIExportControlSanctionsScreener | sanctions_sync_jobs | SQL | 8 | server/routes/extensions.js |
+| AIExportControlSanctionsScreener | screening_results | SQL | 12 | server/schema.sql |
+| AIExportControlSanctionsScreener | training_courses | SQL | 7 | server/routes/extensions.js |
+| AIExportControlSanctionsScreener | training_records | SQL | 6 | server/routes/extensions.js |
+| AIExportControlSanctionsScreener | transactions | SQL | 16 | server/schema.sql |
+| AIExportControlSanctionsScreener | users | SQL | 6 | server/schema.sql |
+| AIForensicAccountingInvestigator | gap_features | SQL | 6 | backend/routes/batch03Gaps.js |
+| AIPromptEngineeringStudio | ab_tests | SQL | 19 | backend/db.js |
+| AIPromptEngineeringStudio | activity_log | SQL | 9 | backend/db.js |
+| AIPromptEngineeringStudio | ai_results | SQL | 7 | backend/db.js |
+| AIPromptEngineeringStudio | ai_results | SQL | 6 | backend/routes/ai-regression-test.js |
+| AIPromptEngineeringStudio | ai_results | SQL | 7 | backend/routes/prompts.js |
+| AIPromptEngineeringStudio | analytics | SQL | 13 | backend/db.js |
+| AIPromptEngineeringStudio | api_keys | SQL | 12 | backend/db.js |
+| AIPromptEngineeringStudio | categories | SQL | 8 | backend/db.js |
+| AIPromptEngineeringStudio | comments | SQL | 7 | backend/db.js |
+| AIPromptEngineeringStudio | cost_tracking | SQL | 10 | backend/db.js |
+| AIPromptEngineeringStudio | deployments | SQL | 16 | backend/db.js |
+| AIPromptEngineeringStudio | evaluations | SQL | 14 | backend/db.js |
+| AIPromptEngineeringStudio | export_import_jobs | SQL | 12 | backend/db.js |
+| AIPromptEngineeringStudio | favorites | SQL | 4 | backend/db.js |
+| AIPromptEngineeringStudio | folder_prompts | SQL | 4 | backend/db.js |
+| AIPromptEngineeringStudio | folders | SQL | 10 | backend/db.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-limited-realtime-collaborative-editing-no-cr.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-no-ai-modelspecific-prompt-rewriter-claude-v.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-no-ai-piiinjection-security-scanning-ui-stub.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-no-ai-prompt-classification-autotag-by-domai.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-no-ai-regression-testing-against-golden-outp.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-no-gitstyle-visual-diff-for-prompt-versions.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-no-multilanguage-prompt-translation.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-no-production-model-registry-beyond-deployme.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-no-public-prompt-marketplace-discovery-forki.js |
+| AIPromptEngineeringStudio | gap_features | SQL | 7 | backend/routes/gap-no-ssoenterprise-auth-provider-integration.js |
+| AIPromptEngineeringStudio | notifications | SQL | 8 | backend/db.js |
+| AIPromptEngineeringStudio | optimization_jobs | SQL | 13 | backend/db.js |
+| AIPromptEngineeringStudio | playground_sessions | SQL | 14 | backend/db.js |
+| AIPromptEngineeringStudio | prompt_chains | SQL | 12 | backend/db.js |
+| AIPromptEngineeringStudio | prompt_library | SQL | 15 | backend/db.js |
+| AIPromptEngineeringStudio | prompt_templates | SQL | 16 | backend/db.js |
+| AIPromptEngineeringStudio | prompt_versions | SQL | 8 | backend/db.js |
+| AIPromptEngineeringStudio | snippets | SQL | 11 | backend/db.js |
+| AIPromptEngineeringStudio | tags | SQL | 7 | backend/db.js |
+| AIPromptEngineeringStudio | team_members | SQL | 5 | backend/db.js |
+| AIPromptEngineeringStudio | teams | SQL | 8 | backend/db.js |
+| AIPromptEngineeringStudio | trash | SQL | 8 | backend/db.js |
+| AIPromptEngineeringStudio | user_settings | SQL | 11 | backend/db.js |
+| AIPromptEngineeringStudio | users | SQL | 8 | backend/db.js |
+| AIPromptEngineeringStudio | variables | SQL | 12 | backend/db.js |
+| AIPromptEngineeringStudio | webhooks | SQL | 12 | backend/db.js |
