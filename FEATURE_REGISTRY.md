@@ -18,3 +18,13 @@
 - Profiles
 - AI Assistant
 - AI Tools
+
+## Export Control Sanctions
+
+- Restricted Party Screening
+- Export Control Classification
+- Trade Compliance Case
+
+## Focused enhancement: Export Control Sanctions
+
+Source evidence: AIExportControlSanctionsScreener.

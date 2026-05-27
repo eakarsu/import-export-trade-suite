@@ -7,6 +7,9 @@ Primary routes:
 - `/profiles`
 
 Feature routes:
+- `/trade-compliance-case`
+- `/export-control-classification`
+- `/restricted-party-screening`
 - `/records`
 - `/workspaces`
 - `/requests`
